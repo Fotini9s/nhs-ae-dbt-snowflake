@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: mart_ae_monthly
+    columns:
+      - name: Period
+        tests:
+          - unique
+          - not_null
