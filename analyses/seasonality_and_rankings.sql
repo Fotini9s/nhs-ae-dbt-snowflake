@@ -82,7 +82,7 @@ FROM AE_PROJECT.PUBLIC.mart_ae_monthly
    ORDER BY MONTH(Period)
 
 
-/*Attendances per day*/
+/*Attendances per day - as Feb's monthly total is smallest*/
 SELECT
    MONTH(Period) AS month_number,
    AVG(Total_Attendances) AS Total_Attendances,
