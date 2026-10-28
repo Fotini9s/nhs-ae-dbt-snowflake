@@ -1,6 +1,6 @@
 # NHS A&E 4-hour performance pipeline (Snowflake, dbt, Power BI)
 
-A personal learning project in which I took NHS England's monthly A&E data through a small data pipeline. I loaded the raw data into Snowflake, cleaned and joined it with dbt and SQL, added basic data tests, and visualised the results in Power BI. It shows how 4-hour A&E performance, attendances and emergency admissions have changed since 2010.
+A personal learning project in which I took NHS England's monthly A&E data through a small data pipeline. I loaded the raw data into Snowflake, cleaned and joined it with dbt and SQL, added basic data tests, and visualised the results in Power BI. It shows how 4-hour A&E performance, attendances and emergency admissions have changed since 2010.  I built it while learning, with step-by-step guidance from an AI assistant, and I ran and checked every step myself.
 
 ## Data source
 
